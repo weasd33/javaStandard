@@ -1,4 +1,4 @@
-package ch03;
+package ch04;
 
 /*
 	다음은 회문수를 구하는 프로그램이다.

@@ -1,4 +1,4 @@
-package ch03;
+package ch04;
 
 /*
 	[실행결과]
