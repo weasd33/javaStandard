@@ -11,4 +11,20 @@ package ch06;
 class SutdaCard {
 	int num;
 	boolean isKwang;
+	
+	SutdaCard() { // 초기값 미지정시 1, true로 세팅
+		this(1, true);
+	}
+	
+	SutdaCard(int num, boolean isKwang) {
+		this.num = num;
+		this.isKwang = isKwang;
+	}
+	
+	String info() {
+		if(isKwang)
+			return num + "K";
+		
+		return num + ""; // isKwang == false
+	}
 }
